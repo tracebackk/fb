@@ -1,0 +1,161 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+header{
+    color: #0866ff;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+}
+form{
+    background-color: white;
+    height: 550px;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 10px 0;
+}
+h2{
+    text-align: center;
+    margin: 0;
+}
+.sub-title{
+    text-align: center;
+    color: #606770;
+    font-size: 15px;
+    line-height: 24px;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+input.name{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #606770;
+    outline: none;
+}
+.form-group{
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    color: #606770;
+    font-size: 15px;
+    display: flex;
+    gap: 7px;
+    margin-bottom: 5px;
+}
+.question-mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #606770;
+    color: white;
+    font-weight: 700;
+}
+select{
+    width: 8rem;
+    padding: 7px 3px;
+    border-radius: 5px;
+} 
+.select-container{
+    display: flex;
+    justify-content: space-between;
+}   
+
+.gender{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #606770;
+
+}
+
+.custom-input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-input {
+    display: flex;
+    width: 8rem;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: 1px solid #606770;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type="checkbox"] {
+    border-radius: 50%; 
+    appearance: none;
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #606770;
+}
+
+input[type="checkbox"]:checked {
+    border: 2px solid #0866ff;
+}
+
+input[type="checkbox"]:checked + label.inner {
+    width: 6px;
+    height: 6px;
+    background-color: #0866ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+}
+
+.checkbox-container {
+    position: relative;
+    display: flex;
+}
+
+input[name="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #606770;
+    outline: none;
+    margin-top: 1rem;
+}
+
+p.terms {
+    color: #606770;
+    font-size: 12px;
+}
+
+div.sign-up-container {
+    display: flex;
+    justify-content: center;
+}
+
+button.sign-up {
+    background-color: #00a400;
+    border-radius: 5px;
+    padding: 10px 62px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+}
